@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="@drawable/anni">
+
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:orientation="vertical">
+
+		<LinearLayout
+			android:id="@+id/linear3"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="horizontal">
+
+			<TextView
+				android:id="@+id/textview1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="0dp"
+				android:text="Anniversary Date"
+				android:textSize="20sp"
+				android:textColor="#FFFFFF"
+				android:textStyle="bold"
+				android:shadowRadius="3"
+				android:shadowColor="#FF016D"
+				android:shadowDx="3"
+				android:shadowDy="7"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/linear4"
+			android:layout_width="match_parent"
+			android:layout_height="200dp"
+			android:padding="8dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="horizontal">
+
+			<TextView
+				android:id="@+id/tvdate"
+				android:layout_width="200dp"
+				android:layout_height="200dp"
+				android:padding="8dp"
+				android:text="TextView"
+				android:textSize="30sp"
+				android:textColor="#FFFFFF"
+				android:background="@drawable/love"
+				android:gravity="center_vertical|center_horizontal"
+				android:textStyle="bold"
+				android:shadowColor="#2C00FC"
+				android:shadowRadius="3"
+				android:shadowDx="3"
+				android:shadowDy="3"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/linear5"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="horizontal">
+
+			<TextView
+				android:id="@+id/tvho"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="TextView"
+				android:textSize="15sp"
+				android:textColor="#FEF1F1"
+				android:textStyle="bold"
+				android:shadowRadius="3"
+				android:shadowColor="#ED03C9"
+				android:shadowDy="3"
+				android:shadowDx="3"/>
+
+			<TextView
+				android:id="@+id/tvmu"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="TextView"
+				android:textSize="15sp"
+				android:textColor="#FFFFFF"
+				android:shadowRadius="3"
+				android:shadowColor="#ED03C9"
+				android:shadowDy="3"
+				android:shadowDx="3"
+				android:textStyle="bold"/>
+
+			<TextView
+				android:id="@+id/tvse"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="TextView"
+				android:textSize="15sp"
+				android:textColor="#FFFFFF"
+				android:shadowRadius="3"
+				android:shadowColor="#ED03C9"
+				android:shadowDy="3"
+				android:shadowDx="3"
+				android:textStyle="bold"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/linear6"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:padding="8dp"
+			android:gravity="bottom"
+			android:orientation="horizontal">
+
+			<LinearLayout
+				android:id="@+id/linear7"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_margin="15dp"
+				android:padding="0dp"
+				android:gravity="center_horizontal|center_vertical"
+				android:orientation="vertical"
+				android:layout_weight="1">
+
+				<ImageView
+					android:id="@+id/imageview1"
+					android:layout_width="150dp"
+					android:layout_height="150dp"
+					android:src="@drawable/koko"
+					android:scaleType="centerCrop"/>
+
+				<TextView
+					android:id="@+id/textview6"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Ko Ko 🤴"
+					android:textSize="15sp"
+					android:shadowRadius="3"
+					android:shadowColor="#ED03C9"
+					android:shadowDy="3"
+					android:shadowDx="3"
+					android:textColor="#F8F8F8"
+					android:textStyle="bold"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:id="@+id/linear8"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_margin="15dp"
+				android:padding="0dp"
+				android:gravity="center_horizontal|center_vertical"
+				android:orientation="vertical"
+				android:layout_weight="1">
+
+				<ImageView
+					android:id="@+id/imageview2"
+					android:layout_width="150dp"
+					android:layout_height="150dp"
+					android:src="@drawable/thae"
+					android:scaleType="centerCrop"/>
+
+				<TextView
+					android:id="@+id/textview7"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Thae 👸"
+					android:shadowRadius="3"
+					android:shadowColor="#ED03C9"
+					android:shadowDy="3"
+					android:shadowDx="3"
+					android:textSize="15sp"
+					android:textColor="#FFFFFF"
+					android:textStyle="bold"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>
+
